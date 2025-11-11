@@ -1,5 +1,6 @@
 //const API_URL = 'http://localhost:3000/api/pruebas';
 const API_URL = 'https://uxt-api.onrender.com/api/pruebas';
+console.log ("algo")
 
 
 
@@ -44,4 +45,5 @@ async function enviarDatosAPI(datos) {
 
 const datos = obtenerInfoPagina();
 enviarDatosAPI(datos);
+
 
